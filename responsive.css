@@ -1,0 +1,244 @@
+/* ==================================================
+   BLOOM BOUQUET
+   RESPONSIVE.CSS
+================================================== */
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width:992px){
+
+    .header{
+
+        padding:0 5%;
+
+    }
+
+    section{
+
+        padding:70px 5%;
+
+    }
+
+    .hero{
+
+        flex-direction:column;
+
+        text-align:center;
+
+        padding-top:130px;
+
+    }
+
+    .hero-content h1{
+
+        font-size:42px;
+
+    }
+
+    .hero-content p{
+
+        margin:20px auto 35px;
+
+    }
+
+    .hero-image img{
+
+        max-width:420px;
+
+    }
+
+    nav ul{
+
+        gap:20px;
+
+    }
+
+    .product-container{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .category-container{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width:768px){
+
+    .header{
+
+        flex-wrap:wrap;
+
+        height:auto;
+
+        padding:15px 5%;
+
+    }
+
+    .logo{
+
+        width:100%;
+
+        text-align:center;
+
+        margin-bottom:15px;
+
+    }
+
+    nav{
+
+        width:100%;
+
+    }
+
+    nav ul{
+
+        justify-content:center;
+
+        flex-wrap:wrap;
+
+        gap:15px;
+
+    }
+
+    .nav-icons{
+
+        width:100%;
+
+        justify-content:center;
+
+        margin-top:15px;
+
+    }
+
+    .hero{
+
+        padding-top:160px;
+
+    }
+
+    .hero-content h1{
+
+        font-size:34px;
+
+    }
+
+    .hero-content p{
+
+        font-size:16px;
+
+    }
+
+    .hero-image img{
+
+        max-width:330px;
+
+    }
+
+    .product-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .category-container{
+
+        grid-template-columns:1fr 1fr;
+
+    }
+
+    .product-card img{
+
+        height:240px;
+
+    }
+
+}
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width:480px){
+
+    section{
+
+        padding:60px 20px;
+
+    }
+
+    .hero{
+
+        gap:30px;
+
+    }
+
+    .hero-content h1{
+
+        font-size:28px;
+
+    }
+
+    .hero-content p{
+
+        font-size:15px;
+
+    }
+
+    .hero-image img{
+
+        max-width:280px;
+
+    }
+
+    .category-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .product-card h3{
+
+        font-size:20px;
+
+    }
+
+    .product-card h4{
+
+        font-size:22px;
+
+    }
+
+    .cartBtn{
+
+        font-size:15px;
+
+        padding:13px;
+
+    }
+
+    .search-box input{
+
+        padding:15px 20px;
+
+        font-size:15px;
+
+    }
+
+    footer{
+
+        font-size:14px;
+
+    }
+
+}

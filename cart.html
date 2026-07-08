@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Keranjang Belanja | Bloom Bouquet</title>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="responsive.css">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="logo">
+
+        🌸 Bloom Bouquet
+
+    </div>
+
+    <nav>
+
+        <ul>
+
+            <li><a href="index.html">Home</a></li>
+
+            <li><a href="index.html#products">Produk</a></li>
+
+            <a href="checkout.html" class="btn-checkout">Lanjut Checkout</a>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+<section class="cart-page">
+
+    <h2>Keranjang Belanja</h2>
+
+    <div class="cart-container">
+
+        <div
+            class="cart-items"
+            id="cartItems">
+
+        </div>
+
+        <div class="cart-summary">
+
+            <h3>Ringkasan Belanja</h3>
+            <div class="coupon-box">
+
+    <input
+        type="text"
+        id="couponInput"
+        placeholder="Masukkan kode voucher">
+
+    <button id="applyCoupon">
+
+        Pakai
+
+    </button>
+
+</div>
+
+            <hr>
+
+            <div class="summary-item">
+
+                <span>Subtotal</span>
+
+                <span id="subtotal">
+
+                    Rp0
+
+                </span>
+
+            </div>
+
+            <div class="summary-item">
+
+                <span>Ongkos Kirim</span>
+
+                <span>
+
+                    Rp20.000
+
+                </span>
+
+            </div>
+
+            <div class="summary-item">
+
+    <span>Diskon</span>
+
+    <span id="discount">
+
+        Rp0
+
+    </span>
+
+</div>
+
+            <div class="summary-item total">
+
+                <span>Total</span>
+
+                <span id="total">
+
+                    Rp20.000
+
+                </span>
+
+            </div>
+
+            <button
+                class="btn checkoutBtn">
+
+                Lanjut Checkout
+
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>
+
+        © 2026 Bloom Bouquet
+
+    </p>
+
+</footer>
+
+<script src="cart.js"></script>
+
+</body>
+
+</html>

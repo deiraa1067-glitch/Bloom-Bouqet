@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bloom Bouquet | Classic & Modern Flower Shop</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="responsive.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="header">
+
+        <div class="logo">
+            🌸 Bloom Bouquet
+        </div>
+
+        <nav>
+
+            <ul>
+
+                <li><a href="#">Home</a></li>
+
+                <li><a href="#products">Produk</a></li>
+
+                <li><a href="#about">Tentang</a></li>
+
+                <li><a href="#contact">Kontak</a></li>
+
+            </ul>
+
+        </nav>
+
+        <div class="nav-icons">
+
+    <i class="fas fa-search"></i>
+
+    <a href="#">
+        <i class="fas fa-heart"></i>
+        <span class="wishlist-count">0</span>
+    </a>
+
+    <a href="cart.html">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="cart-count">0</span>
+    </a>
+
+    <button id="themeBtn">
+        <i class="fas fa-moon"></i>
+    </button>
+
+</div>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+    <div class="hero-content">
+        <h1>Bloom Bouquet</h1>
+        <p>Beautiful Flowers for Every Special Moment</p>
+        <a href="#products" class="btn">Shop Now</a>
+    </div>
+
+    <div class="hero-image">
+        <img src="images/hero.jpg" alt="Bloom Bouquet Hero">
+    </div>
+</section>
+
+    <!-- ================= SEARCH ================= -->
+
+    <section class="search-box">
+
+        <input type="text"
+            id="search"
+            placeholder="Cari buket favoritmu...">
+
+    </section>
+
+    <!-- ================= CATEGORY ================= -->
+
+    <section class="category">
+
+        <h2>Kategori</h2>
+
+        <div class="category-container">
+
+            <div class="category-card">
+
+                🌹
+
+                <p>Rose</p>
+
+            </div>
+
+            <div class="category-card">
+
+                🌷
+
+                <p>Tulip</p>
+
+            </div>
+
+            <div class="category-card">
+
+                🌻
+
+                <p>Sunflower</p>
+
+            </div>
+
+            <div class="category-card">
+
+                🎓
+
+                <p>Graduation</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PRODUCTS ================= -->
+
+    <section class="products" id="products">
+
+        <h2>Produk Terbaru</h2>
+
+        <div class="product-container">
+
+            <!-- PRODUCT 1 -->
+
+            <div class="product-card"
+     data-id="1"
+     data-name="Classic Rose"
+     data-price="199000"
+     data-image="images/Classic-Rose.jpg">
+
+    <img src="images/Classic-Rose.jpg" alt="Classic Rose">
+
+    <h3>Classic Rose</h3>
+
+    <div class="rating">
+        ⭐⭐⭐⭐⭐
+    </div>
+
+    <h4>Rp199.000</h4>
+
+    <div class="product-actions">
+
+        <button class="wishlistBtn">
+            <i class="far fa-heart"></i>
+        </button>
+
+        <button class="cartBtn">
+            <i class="fas fa-shopping-cart"></i>
+            Tambah Keranjang
+        </button>
+
+    </div>
+
+</div>
+
+            <!-- PRODUCT 2 -->
+
+            <div class="product-card"
+     data-id="2"
+     data-name="Luxury White"
+     data-price="249000"
+     data-image="images/Luxury-White.jpg">
+
+    <img src="images/Luxury-White.jpg" alt="Luxury White">
+
+    <h3>Luxury White</h3>
+
+    <div class="rating">
+        ⭐⭐⭐⭐⭐
+    </div>
+
+    <h4>Rp249.000</h4>
+
+    <div class="product-actions">
+
+        <button class="wishlistBtn">
+            <i class="far fa-heart"></i>
+        </button>
+
+        <button class="cartBtn">
+            <i class="fas fa-shopping-cart"></i>
+            Tambah Keranjang
+        </button>
+
+    </div>
+
+</div>
+            <!-- PRODUCT 3 -->
+
+            <div class="product-card"
+     data-id="3"
+     data-name="Pink Tulip"
+     data-price="229000"
+     data-image="images/Pink-Tulip.jpg">
+
+    <img src="images/Pink-Tulip.jpg" alt="Pink Tulip">
+
+    <h3>Pink Tulip</h3>
+
+    <div class="rating">
+        ⭐⭐⭐⭐⭐
+    </div>
+
+    <h4>Rp229.000</h4>
+
+    <div class="product-actions">
+
+        <button class="wishlistBtn">
+            <i class="far fa-heart"></i>
+        </button>
+
+        <button class="cartBtn">
+            <i class="fas fa-shopping-cart"></i>
+            Tambah Keranjang
+        </button>
+
+    </div>
+
+</div>
+            <!-- PRODUCT 4 -->
+
+           <div class="product-card"
+     data-id="4"
+     data-name="Sunflower"
+     data-price="179000"
+     data-image="images/Sunflower.jpg">
+
+    <img src="images/Sunflower.jpg" alt="Sunflower">
+
+    <h3>Sunflower</h3>
+
+    <div class="rating">
+        ⭐⭐⭐⭐⭐
+    </div>
+
+    <h4>Rp179.000</h4>
+
+    <div class="product-actions">
+
+        <button class="wishlistBtn">
+            <i class="far fa-heart"></i>
+        </button>
+
+        <button class="cartBtn">
+            <i class="fas fa-shopping-cart"></i>
+            Tambah Keranjang
+        </button>
+
+    </div>
+
+</div>
+            <!-- PRODUCT 5 -->
+
+            <div class="product-card"
+     data-id="5"
+     data-name="Graduation"
+     data-price="299000"
+     data-image="images/Graduation.jpg">
+
+    <img src="images/Graduation.jpg" alt="Graduation">
+
+    <h3>Graduation</h3>
+
+    <div class="rating">
+        ⭐⭐⭐⭐⭐
+    </div>
+
+    <h4>Rp299.000</h4>
+
+    <div class="product-actions">
+
+        <button class="wishlistBtn">
+            <i class="far fa-heart"></i>
+        </button>
+
+        <button class="cartBtn">
+            <i class="fas fa-shopping-cart"></i>
+            Tambah Keranjang
+        </button>
+
+    </div>
+
+</div>
+            <!-- PRODUCT 6 -->
+
+            <div class="product-card"
+     data-id="6"
+     data-name="Money Bouquet"
+     data-price="499000"
+     data-image="images/Money-Bouquet.jpg">
+
+    <img src="images/Money-Bouquet.jpg" alt="Money Bouquet">
+
+    <h3>Money Bouquet</h3>
+
+    <div class="rating">
+        ⭐⭐⭐⭐⭐
+    </div>
+
+    <h4>Rp499.000</h4>
+
+    <div class="product-actions">
+
+        <button class="wishlistBtn">
+            <i class="far fa-heart"></i>
+        </button>
+
+        <button class="cartBtn">
+            <i class="fas fa-shopping-cart"></i>
+            Tambah Keranjang
+        </button>
+
+    </div>
+
+</div>
+
+            <!-- PRODUCT 7 -->
+
+           <div class="product-card"
+     data-id="7"
+     data-name="Chocolate Bouquet"
+     data-price="279000"
+     data-image="images/Chocolate-Bouquet.jpg">
+
+    <img src="images/Chocolate-Bouquet.jpg" alt="Chocolate Bouquet">
+
+    <h3>Chocolate Bouquet</h3>
+
+    <div class="rating">
+        ⭐⭐⭐⭐⭐
+    </div>
+
+    <h4>Rp279.000</h4>
+
+    <div class="product-actions">
+
+        <button class="wishlistBtn">
+            <i class="far fa-heart"></i>
+        </button>
+
+        <button class="cartBtn">
+            <i class="fas fa-shopping-cart"></i>
+            Tambah Keranjang
+        </button>
+
+    </div>
+
+</div>
+
+            <!-- PRODUCT 8 -->
+
+            <div class="product-card"
+     data-id="8"
+     data-name="Mixed Flower"
+     data-price="319000"
+     data-image="images/Mixed-Flower.jpg">
+
+    <img src="images/Mixed-Flower.jpg" alt="Mixed Flower">
+
+    <h3>Mixed Flower</h3>
+
+    <div class="rating">
+        ⭐⭐⭐⭐⭐
+    </div>
+
+    <h4>Rp319.000</h4>
+
+    <div class="product-actions">
+
+        <button class="wishlistBtn">
+            <i class="far fa-heart"></i>
+        </button>
+
+        <button class="cartBtn">
+            <i class="fas fa-shopping-cart"></i>
+            Tambah Keranjang
+        </button>
+
+    </div>
+
+</div>
+
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="about">
+
+        <h2>Tentang Kami</h2>
+
+        <p>
+
+            Bloom Bouquet merupakan toko buket bunga
+            dengan konsep Classic & Modern yang menghadirkan
+            rangkaian bunga premium untuk berbagai momen
+            spesial.
+
+        </p>
+
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="contact">
+
+        <h2>Kontak</h2>
+
+        <p>Email : admin@bloombouquet.com</p>
+
+        <p>WhatsApp : 0812-3456-7890</p>
+
+    </section>
+<!-- ================= QUICK VIEW ================= -->
+
+<div class="quick-view" id="quickView">
+
+    <div class="quick-content">
+
+        <button class="closeQuick">
+            <i class="fas fa-times"></i>
+        </button>
+
+        <img id="quickImage"
+             src=""
+             alt="Produk">
+
+        <h2 id="quickTitle"></h2>
+
+        <div class="rating">
+            ⭐⭐⭐⭐⭐
+        </div>
+
+        <h3 id="quickPrice"></h3>
+
+        <p id="quickDescription">
+            Buket bunga premium dengan kualitas terbaik,
+            cocok untuk hadiah ulang tahun, wisuda,
+            anniversary, maupun momen spesial lainnya.
+        </p>
+
+        <button id="quickCart" class="btn">
+            <i class="fas fa-shopping-cart"></i>
+            Tambah ke Keranjang
+        </button>
+
+    </div>
+
+</div>
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+
+            © 2026 Bloom Bouquet.
+            All Rights Reserved.
+
+        </p>
+
+    </footer>
+
+    <!-- JS -->
+
+   <script src="script.js"></script>
+
+<div class="back-top">
+    <i class="fas fa-arrow-up"></i>
+</div>
+
+<div class="loader">
+    <div class="spinner"></div>
+</div>
+</body>
+
+</html>

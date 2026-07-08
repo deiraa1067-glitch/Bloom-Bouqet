@@ -307,11 +307,11 @@ Tambahkan screenshot berikut:
 
 # 👩‍💻 Developer
 
-**Nama :** *Trisa Kirana *
+**Nama :** Trisa Kirana 
 
 **Mata Kuliah :** KOMPUTER APLIKASI IT 2
 
-**Universitas :** *INTERNATIONAL WOMEN UNIVERSITY *
+**Universitas :** INTERNATIONAL WOMEN UNIVERSITY 
 
 **Tahun :** 2026
 
